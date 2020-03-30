@@ -24,7 +24,7 @@ namespace FWL.Tests
 
             var heading = AqualityServices.Get<IElementFactory>().GetLabel(By.Id("firstHeading"), "Heading");
 
-            Assert.AreEqual("Результаты поиска", heading.GetText(), "Heading should be as expected");
+            Assert.AreEqual("Selenium", heading.GetText(), "Heading should be as expected");
 
             browser.Quit();
         }
