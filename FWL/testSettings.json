@@ -1,0 +1,8 @@
+{
+  "BaseUrl": "https://ru.wikipedia.org/",
+  "TokenUrl": "http://localhost:8080",
+  "ApiUrl": "http://localhost:9090",
+  "ResolutionWidth": 1024,
+  "ResolutionHeight": 768,
+  "LongTimeout": 60000
+}
